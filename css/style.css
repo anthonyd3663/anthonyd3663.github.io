@@ -1,0 +1,57 @@
+body {
+    background: black;
+}
+
+/* Fonts! */
+h1,h2 {
+    font-family: Playfair display, serif;
+    color: white;
+}
+
+.info_card {
+    border: purple solid 2px;
+    height: auto;
+    width: auto;
+    max-height: 47vh;
+    max-width: 45vw;
+    aspect-ratio: 1;
+}
+
+.info_card img {
+    display: flex;
+    height: auto;
+    width: 90%;
+}
+
+.center_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#grid {
+    display:grid;
+    justify-content: center;
+    place-self: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+#hello {
+    transform: rotate(-45deg);
+    font-size: 8em;
+}
+
+#name {
+    transform: rotate(5deg);
+    font-size: 4em;
+}
